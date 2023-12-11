@@ -1,26 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    Photo taken at ASU, Arizona, Oct. 2023.
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there! I'm a second-year PhD student in Electrical Engineering at Arizona State University, where I work with Prof. [Ahmed Alkhateeb](https://www.aalkhateeb.net){:target="\_blank"} in the [Wireless Intelligence Lab](https://www.wi-lab.net){:target="\_blank"}.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Previously, I completed my Bachelor's and Master's degress in Electrical Engineering at National Taiwan University, the latter under the supervision of Prof. [Hung-Yu Wei](http://homepage.ntu.edu.tw/~hywei/){:target="\_blank"}. From Jul. 2018 to Feb. 2020, I interned at Institute of Information Science in Academia Sinica with advisor Prof. [Hsin-Min Wang](https://homepage.iis.sinica.edu.tw/pages/whm/){:target="\_blank"}.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests include wireless communication, wireless sensing, machine learning, and edge computing. Currently, I am working on the integrated sensing and communication problems in wireless systems.
+
+I am also a big fan of Phoenix Suns. Let's go Suns!
