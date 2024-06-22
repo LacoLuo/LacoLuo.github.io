@@ -1,7 +1,17 @@
 ---
 ---
 
-@inproceedings{luo2024,
+@article{luo2024b,
+  abbr            = {Preprint},
+  author          = {Luo, Hao and Alkhateeb, Ahmed},
+  journal         = {Arxiv preprint},
+  title           = {Digital Twin Aided Compressive Sensing: Enabling Site-Specific MIMO Hybrid Precoding},
+  abstract        = {Compressive sensing is a promising solution for the channel estimation in multiple-input multiple-output (MIMO) systems with large antenna arrays and constrained hardware. Utilizing site-specific channel data from real-world systems, deep learning can be employed to learn the compressive sensing measurement vectors with minimum redundancy, thereby focusing sensing power on promising spatial directions of the channel. Collecting real-world channel data, however, is challenging due to the high overhead resulting from the large number of antennas and hardware constraints. In this paper, we propose leveraging a site-specific digital twin to generate synthetic channel data, which shares a similar distribution with real-world data. The synthetic data is then used to train the deep learning models for learning measurement vectors and hybrid precoder/combiner design in an end-to-end manner. We further propose a model refinement approach to fine-tune the model pre-trained on the digital twin data with a small amount of real-world data. The evaluation results show that, by training the model on the digital twin data, the learned measurement vectors can be efficiently adapted to the environment geometry, leading to high performance of hybrid precoding for real-world deployments. Moreover, the model refinement approach can enable the digital twin aided model to achieve comparable performance to the model trained on the real-world dataset with a significantly reduced amount of real-world data.},
+  year            = {2024},
+  html            = {https://arxiv.org/abs/2405.07115}
+}
+
+@inproceedings{luo2024a,
   abbr            = {IEEE ICC 2024},
   author          = {Luo, Hao and Demirhan, Umut and Alkhateeb, Ahmed},
   booktitle       = {IEEE ICC},
@@ -9,6 +19,7 @@
   abstract        = {In this paper, we explore an integrated sensing and communication (ISAC) system with backscattering RFID tags. In this setup, an access point employs a communication beam to serve a user while leveraging a sensing beam to detect an RFID tag. Under the total transmit power constraint of the system, our objective is to design sensing and communication beams by considering the tag detection and communication requirements. First, we adopt zero-forcing to design the beamforming vectors, followed by solving a convex optimization problem to determine the power allocation between sensing and communication. Then, we study a joint beamforming design problem with the goal of minimizing the total transmit power while satisfying the tag detection and communication requirements. To resolve this, we re-formulate the non-convex constraints into convex second-order cone constraints. The simulation results demonstrate that, under different communication SINR requirements, joint beamforming optimization outperforms the zero-forcing-based method in terms of achievable detection distance, offering a promising approach for the ISAC-backscattering systems.},
   year            = {2024},
   html            = {https://arxiv.org/abs/2401.09761},
+  slides          = {ICC-2024.pdf},
   code            = {https://github.com/LacoLuo/ISAC-Backscatter},
 }
 
@@ -20,6 +31,7 @@
   abstract        = {Reconfigurable intelligent surfaces, with their large number of antennas, offer an interesting opportunity for high spatial-resolution imaging. In this paper, we propose a novel RIS-aided integrated imaging and communication system that can reduce the RIS beam training overhead for communication by leveraging the imaging of the surrounding environment. In particular, using the RIS as a wireless imaging device, our system constructs the scene depth map of the environment, including the mobile user. Then, we develop a user detection algorithm that subtracts the background and extracts the mobile user attributes from the depth map. These attributes are then utilized to design the RIS interaction vector and the beam selection strategy with low overhead. Simulation results show that the proposed approach can achieve comparable beamforming gain to the optimal/exhaustive beam selection solution while requiring 1000 times less beam training overhead.},
   year            = {2023},
   poster          = {Asilomar-2023.pdf},
+  html            = {https://ieeexplore.ieee.org/abstract/document/10476888},
   code            = {https://github.com/LacoLuo/Integrated-Imaging-Comm},
 }
 
@@ -33,6 +45,7 @@
   html            = {https://ieeexplore.ieee.org/abstract/document/10289752},
   code            = {https://github.com/LacoLuo/V2V-Radar-Beam-Tracking},
   slides          = {EUSIPCO-2023.pdf},
+  video           = {https://www.youtube.com/watch?v=OTGLMCl1lQQ},
 }
 
 @inproceedings{taha2023,
@@ -45,6 +58,7 @@
   html            = {https://ieeexplore.ieee.org/abstract/document/10279208},
   slides          = {ICC-2023.pdf},
   code            = {https://github.com/LacoLuo/RIS-Depth-Estimation},
+  video           = {https://www.youtube.com/watch?v=KJSu8pVgisg},
 }
 
 @article{Chiang2023,
@@ -92,7 +106,7 @@
   booktitle={IEEE VTC-Fall},
   year={2021},
   html={https://ieeexplore.ieee.org/document/9625307},
-  video={https://drive.google.com/file/d/1iC2UfsNIOyyZI_pfg90-hQMDrSy-hxks/view?usp=sharing},
+  video={https://www.youtube.com/watch?v=06YSHRAxrnA&t=8s},
   code={https://github.com/LacoLuo/S2S-BT},
 }
 
