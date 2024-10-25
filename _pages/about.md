@@ -23,4 +23,4 @@ Previously, I completed my Bachelor's and Master's degress in Electrical Enginee
 
 My research interests include wireless communication, wireless sensing, machine learning, and edge computing. Currently, I am working on the integrated sensing and communication problems in wireless systems.
 
-I am also a big fan of Phoenix Suns. Let's go Suns!
+I am also a big fan of [Phoenix Suns](https://www.instagram.com/suns/?hl=en){:target="\_blank"}. Let's go Suns!
