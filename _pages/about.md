@@ -21,6 +21,6 @@ Hi there! I'm a third-year PhD student in Electrical Engineering at Arizona Stat
 
 Previously, I completed my Bachelor's and Master's degress in Electrical Engineering at National Taiwan University, the latter under the supervision of Prof. [Hung-Yu Wei](http://homepage.ntu.edu.tw/~hywei/){:target="\_blank"}. From Jul. 2018 to Feb. 2020, I interned at Institute of Information Science in Academia Sinica with advisor Prof. [Hsin-Min Wang](https://homepage.iis.sinica.edu.tw/pages/whm/){:target="\_blank"}.
 
-My research interests include wireless communication, wireless sensing, machine learning, and edge computing. Currently, I am working on the integrated sensing and communication problems in wireless systems.
+My research interests include wireless communication, wireless sensing, machine learning, and edge computing. Currently, I am working on digital twin aided MIMO communications.
 
 I am also a big fan of [Phoenix Suns](https://www.instagram.com/suns/?hl=en){:target="\_blank"}. Let's go Suns!
