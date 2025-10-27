@@ -1,14 +1,36 @@
 ---
 ---
 
-@article{luo2024b,
+@article{luo2025b,
+  abbr            = {IEEE TCOM},
+  title           = {Digital Twin Aided Massive MIMO CSI Feedback: Exploring the Impact of Twinning Fidelity},
+  author          = {Luo, Hao and Jiang, Shuaifeng and Khosravirad, Saeed R. and Alkhateeb, Ahmed},
+  abstract        = {Deep learning (DL) techniques have demonstrated strong performance in compressing and reconstructing channel state information (CSI) while reducing feedback overhead in massive MIMO systems. A key challenge, however, is their reliance on extensive site-specific training data, whose real-world collection incurs significant overhead and limits scalability across deployment sites. To address this, we propose leveraging site-specific digital twins to assist the training of DL-based CSI compression models. The digital twin integrates an electromagnetic (EM) 3D model of the environment, a hardware model, and ray tracing to produce site-specific synthetic CSI data, allowing DL models to be trained without the need for extensive real-world measurements. We further develop a fidelity analysis framework that decomposes digital twin quality into four key aspects: 3D geometry, material properties, ray tracing, and hardware modeling. We explore how these factors influence the reliability of the data and model performance. To enhance the adaptability to real-world environments, we propose a refinement strategy that incorporates a limited amount of real-world data to fine-tune the DL model pre-trained on the digital twin dataset. Evaluation results show that models trained on site-specific digital twins outperform those trained on generic datasets, with the proposed refinement method effectively enhancing performance using limited real-world data. The simulations also highlight the importance of digital twin fidelity, especially in 3D geometry, ray tracing, and hardware modeling, for improving CSI reconstruction quality. This analysis framework offers valuable insights into the critical fidelity aspects, and facilitates more efficient digital twin development and deployment strategies for various wireless communication tasks.},
+  journal         = {IEEE Transactions on Communications},
+  year            = {2025},
+  publisher       = {IEEE},
+  selected        = {true},
+  html            = {https://ieeexplore.ieee.org/abstract/document/11195801},
+}
+
+@article{luo2025a,
+  abbr            = {Preprint},
+  author          = {Luo, Hao and Zhang, Yu and Alkhateeb, Ahmed},
+  journal         = {arXiv preprint},
+  title           = {Sphere Precoding for Robust Near-Field Communications},
+  abstract        = {Near-field communication with large antenna arrays promises significant beamforming and multiplexing gains. These communication links, however, are very sensitive to user mobility as any small change in the user position may suddenly drop the signal power. This leads to critical challenges for the robustness of these near-field communication systems. In this paper, we propose \textit{sphere precoding}, which is a robust precoding design to address user mobility in near-field communications. To gain insights into the spatial correlation of near-field channels, we extend the one-ring channel model to what we call one-sphere channel model and derive the channel covariance considering user mobility. Based on the one-sphere channel model, a robust precoding design problem is defined to optimize the minimum signal-to-interference-plus-noise ratio (SINR) satisfaction probability among mobile users. By utilizing the eigen structure of channel covariance, we further design a relaxed convex problem to approximate the solution of the original non-convex problem. The low-complexity solution effectively shapes a sphere that maintains the signal power for the target user and also nulls its interference within spheres around the other users. Simulation results highlight the efficacy of the proposed solution in achieving robust precoding yet high achievable rates in near-field communication systems.},
+  year            = {2025},
+  html            = {https://arxiv.org/abs/2503.06756},
+}
+
+@inproceedings{luo2024b,
   abbr            = {Asilomar 2024},
   author          = {Luo, Hao and Alkhateeb, Ahmed},
-  journal         = {Arxiv preprint},
+  booktitle       = {Asilomar},
   title           = {Digital Twin Aided Compressive Sensing: Enabling Site-Specific MIMO Hybrid Precoding},
   abstract        = {Compressive sensing is a promising solution for the channel estimation in multiple-input multiple-output (MIMO) systems with large antenna arrays and constrained hardware. Utilizing site-specific channel data from real-world systems, deep learning can be employed to learn the compressive sensing measurement vectors with minimum redundancy, thereby focusing sensing power on promising spatial directions of the channel. Collecting real-world channel data, however, is challenging due to the high overhead resulting from the large number of antennas and hardware constraints. In this paper, we propose leveraging a site-specific digital twin to generate synthetic channel data, which shares a similar distribution with real-world data. The synthetic data is then used to train the deep learning models for learning measurement vectors and hybrid precoder/combiner design in an end-to-end manner. We further propose a model refinement approach to fine-tune the model pre-trained on the digital twin data with a small amount of real-world data. The evaluation results show that, by training the model on the digital twin data, the learned measurement vectors can be efficiently adapted to the environment geometry, leading to high performance of hybrid precoding for real-world deployments. Moreover, the model refinement approach can enable the digital twin aided model to achieve comparable performance to the model trained on the real-world dataset with a significantly reduced amount of real-world data.},
   year            = {2024},
-  html            = {https://arxiv.org/abs/2405.07115},
+  html            = {https://ieeexplore.ieee.org/abstract/document/10942772},
   code            = {https://github.com/LacoLuo/DT-Compressive-Sensing/tree/main},
   slides          = {Asilomar-2024.pdf},
 }
